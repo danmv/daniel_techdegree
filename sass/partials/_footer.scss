@@ -1,0 +1,51 @@
+/*Footer Styles*/
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+  .copyright {
+    top: -8px;
+    font-size: .75em;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+    }
+  }
+
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+
+  &.twitter {
+    background-image: url(../../images/twitter.svg);
+  }
+
+  &.linkedin {
+    background-image: url(../../images/linkedin.svg);
+  }
+
+  &.github {
+    background-image: url(../../images/github.svg);
+  }
+
+  &.social:hover {
+    opacity: 1;
+  }
+}
+
+.clearfix {
+  clear: both;
+}

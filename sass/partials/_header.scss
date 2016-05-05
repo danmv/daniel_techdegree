@@ -1,0 +1,40 @@
+/*Header Styles*/
+header {
+  line-height: 1.5;
+  text-align: center;
+  background: url('../../images/seattle.png') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+
+  .profile-image {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+  }
+  .profile-image:hover {
+    transform: scale(1.2) rotate(5deg);
+    opacity: 0.8;
+  }
+}
+
+.tag {
+  background-color: $main-color;
+  color: $text-color;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
+.location {
+  background-color: #222;
+  color: complement($secondary-color);
+}
+
+.page-title {
+  padding-top: 60px;
+}

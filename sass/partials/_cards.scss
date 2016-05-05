@@ -1,0 +1,35 @@
+/*Card Styles*/
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+
+  &:hover {
+    border-color: invert($secondary-color);
+  }
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills {
+  li {
+    border-radius: 6px;
+    display: inline-block;
+    background: $tags-color1;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+    &:nth-child(odd) {
+      background: $tags-color2;
+    }
+  }
+}
+

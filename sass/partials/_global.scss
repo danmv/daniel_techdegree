@@ -1,0 +1,34 @@
+/*Styles for Techdegree Project 1 - Daniel MV*/
+// Global Layout Set-up
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: $text-color;
+  background: $main-color;
+}
+// Link Styles
+
+a {
+  text-decoration: none;
+  color: lighten($secondary-color, 5%);
+  &:hover {
+    color: $secondary-color;
+  }
+}
+
+.container-fluid {
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+  }
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
