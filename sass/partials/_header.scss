@@ -2,7 +2,7 @@
 header {
   line-height: 1.5;
   text-align: center;
-  background: url('../../images/seattle.png') no-repeat top center;
+  background: url('../images/seattle.png') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -18,6 +18,7 @@ header {
   .profile-image:hover {
     transform: scale(1.2) rotate(5deg);
     opacity: 0.8;
+    border: 3px solid $secondary-color;
   }
 }
 
@@ -32,7 +33,7 @@ header {
 
 .location {
   background-color: #222;
-  color: complement($secondary-color);
+  color: lighten($secondary-color, 10%);
 }
 
 .page-title {

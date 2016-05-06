@@ -816,7 +816,7 @@ a {
 header {
   line-height: 1.5;
   text-align: center;
-  background: url("../../images/seattle.png") no-repeat top center;
+  background: url("../images/seattle.png") no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px; }
@@ -831,7 +831,8 @@ header {
     -webkit-transform: scale(1.2) rotate(5deg);
         -ms-transform: scale(1.2) rotate(5deg);
             transform: scale(1.2) rotate(5deg);
-    opacity: 0.8; }
+    opacity: 0.8;
+    border: 3px solid #5B9800; }
 
 .tag {
   background-color: #f7f5f0;
@@ -843,7 +844,7 @@ header {
 
 .location {
   background-color: #222;
-  color: #3d0098; }
+  color: #7acb00; }
 
 .page-title {
   padding-top: 60px; }
